@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    height: 100vh;
+
+}
+
+header {
+    background-color: burlywood;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+    border: 1px dotted black;
+
+}
+
+main {
+    background-color: beige;
+    padding-left: 40px;
+    width:85%;
+    overflow-y: scroll;
+
+}
+
+h1 {
+    color:green;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#maPhoto {
+    width: 180px;
+    border-radius: 50%;
+}
+
+strong {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 1.1em;
+}
+
